@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #2a9d8f;
+  color: white;
+  padding: 20px 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px 10%;
+}
+
+.page {
+  display: none;
+}
+
+.page.active {
+  display: block;
+}
+
+.hero {
+  background: url('https://example.com/hunza-banner.jpg') no-repeat center center/cover;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.photos {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.photos img {
+  width: 450px;
+  height: 200px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.hunza-valley{
+font-size: medium;
+color: rgb(143, 8, 30);
+}
+
+.packages {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.package {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.package img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #264653;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
